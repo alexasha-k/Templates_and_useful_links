@@ -11,7 +11,7 @@ Thanks for [glivera-team-template!](https://github.com/glivera-team/glivera-team
   }
  ```
  ```
-.vusually-hidden {
+.visually-hidden {
   position: absolute;
   overflow: hidden;
   clip: rect(0 0 0 0);
