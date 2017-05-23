@@ -23,7 +23,7 @@ Thanks for [glivera-team-template!](https://github.com/glivera-team/glivera-team
 }
 ```
 ```
-.clearfix:after {
+.clearfix::after {
   content: "";
   display: table;
   clear: both;
