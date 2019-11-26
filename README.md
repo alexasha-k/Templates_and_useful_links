@@ -1,6 +1,3 @@
-# Checklist for site:
-Thanks for [glivera-team-template!](https://github.com/glivera-team/glivera-team-template.wiki.git)
-
 # Classes:
 ```sh
 .visually-hidden--text {
