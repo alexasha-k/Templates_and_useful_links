@@ -1,0 +1,25 @@
+/* for text highlighted 'like by marker' */
+.selected-text {
+    display: inline;
+    color: #fff;
+    background-color: #43bccd;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    white-space: pre-wrap;
+    padding: 1px 5px; /* to highlight some space at the start and end of each line, above and below, as well*/
+   }
+   
+ /* to cut multiline text with ellipsis. Webkit only */ 
+ .multiline-ellipsis {
+  display: block; /* For brouser that don't support -webkit-box */
+  display: -webkit-box;
+  height: 60px;
+  line-height: 20px;
+  font-size: 14px;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  color: #000;
+}
