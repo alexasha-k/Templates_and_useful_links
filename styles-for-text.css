@@ -23,3 +23,10 @@
   text-overflow: ellipsis;
   color: #000;
 }
+
+/* to make gradient fill for text (webkik, ms edge) */ 
+.gradient-text {
+    background: -webkit-linear-gradient(top, black 0, white 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
