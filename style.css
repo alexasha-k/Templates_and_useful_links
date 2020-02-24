@@ -27,3 +27,7 @@ img, picture {
   height: auto;
 }
 
+/*For anchor links + fixed header */
+h3 {
+  scroll-margin-top: 5rem;
+}
